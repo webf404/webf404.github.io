@@ -1,0 +1,41 @@
+{
+  "logoSource": "/src/assets/images/component-docs/acs-logo.svg",
+  "logoAlternateSource": "/src/assets/images/component-docs/acs-logo-dark.svg",
+  "logoAlt": "Astro Component Starter",
+  "themeToggle": true,
+  "navData": [
+    {
+      "name": "Home",
+      "path": "/",
+      "children": []
+    },
+    {
+      "name": "Think Tank",
+      "path": "/thinktank/",
+      "children": []
+    }, 
+    {
+      "name": "Contact",
+      "path": "/contact/",
+      "children": []
+    },
+    {
+      "name": "Blog",
+      "path": "/blog/",
+      "children": []
+    }
+  ],
+  "buttonSections": [
+    {
+      "_component": "building-blocks/core-elements/button",
+      "text": "Search",
+      "hideText": true,
+      "link": "/search/",
+      "iconName": "magnifying-glass",
+      "iconColor": "default",
+      "iconPosition": "before",
+      "variant": "ghost",
+      "size": "lg"
+    }
+  ]
+}
